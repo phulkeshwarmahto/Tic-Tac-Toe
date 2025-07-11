@@ -60,18 +60,21 @@ h1 {
     flex-wrap: wrap;
     height: 70vh;
     width: 70vh;
+    margin-top: 20px;
     border-radius: 10px;
     background-color: rgb(193, 178, 127);
     box-shadow: 0 8px 8px rgba(red, green, blue, alpha);
 }
 
 .game {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 60vh;
     width: 60vh;
+    aspect-ratio: 1 / 1;
     border-radius: 10px;
 }
 
