@@ -58,8 +58,8 @@ h1 {
     justify-content: center; 
     align-items: center;
     flex-wrap: wrap;
-    height: 70vh;
-    width: 70vh;
+    height: 50vh;
+    width: 50vh;
     margin-top: 20px;
     border-radius: 10px;
     background-color: rgb(193, 178, 127);
@@ -85,8 +85,8 @@ h1 {
     grid-template-columns: repeat(3,1);     it also can be used  */
     font-size: 72px;
     margin: 5px;
-    width: 18vmin;
-    height: 18vmin;
+    width: 12vmin;
+    height: 12vmin;
     justify-content: center;
     border-radius: 8px;
     border: none;
