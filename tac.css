@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    height: 100%;
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: beige;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 44px;
+    padding: 20px;
+    background-color: antiquewhite;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+}
+
+/* 
+#navbar {
+    width: 100%;
+    background-color: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 20px;
+    gap: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    flex-direction: column;
+}
+
+#img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+#navbar h1 {
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+
+.container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap;
+    height: 70vh;
+    width: 70vh;
+    border-radius: 10px;
+    background-color: rgb(193, 178, 127);
+    box-shadow: 0 8px 8px rgba(red, green, blue, alpha);
+}
+
+.game {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 60vh;
+    border-radius: 10px;
+}
+
+.bt {
+    align-items: center;
+    display: flex;
+    /* display: grid;
+    grid-template-columns: repeat(3,1);     it also can be used  */
+    font-size: 72px;
+    margin: 5px;
+    width: 18vmin;
+    height: 18vmin;
+    justify-content: center;
+    border-radius: 8px;
+    border: none;
+    background-color: antiquewhite;
+    box-shadow: 0 8px 8px rgba(1,0,0);
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+#reset {
+    background-color: rgb(187, 183, 102);
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    font-size: 32px;
+    border-radius: 6px;
+    width: 240px;
+    height: 60px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+#new {
+    background-color: rgb(187, 183, 102);
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    font-size: 32px;
+    border-radius: 6px;
+    width: 240px;
+    height: 60px;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+#msg-cont {
+    height: 100vmin;
+    display: none;
+    /* margin: 20px auto;
+    padding: 15px 20px; */
+    color: rgb(94, 255, 72);
+    font-size: 1.5rem;
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+#msg {
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+}
+#msg-cont.show {  /* Show the message container when needed */
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
